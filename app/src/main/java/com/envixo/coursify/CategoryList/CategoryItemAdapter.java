@@ -4,12 +4,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.envixo.coursify.PostsByCategoryActivity;
 import com.envixo.coursify.R;
 
 import java.util.List;
@@ -92,6 +94,10 @@ public class CategoryItemAdapter extends RecyclerView.Adapter<CategoryItemAdapte
                     Log.w("ClickItem","click");
 
                     /* Aqui se Chama uma nova Activity para Listar os POsts da Categoria.*/
+                    Intent intent = new Intent (view.getContext(), PostsByCategoryActivity.class);
+                    intent.putExtra("Category_ID", id);
+
+                    //view.getContext().startActivity(intent);
 
 
                 }

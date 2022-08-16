@@ -18,10 +18,12 @@
         <entry key="app/src/main/res/layout/activity_detail_post.xml" value="0.2171875" />
         <entry key="app/src/main/res/layout/activity_init_sys.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_posts_by_category.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/category_item.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/larg_post_item.xml" value="0.159375" />
         <entry key="app/src/main/res/layout/post_item.xml" value="0.33" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.19791666666666666" />
       </map>

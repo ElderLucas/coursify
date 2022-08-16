@@ -31,7 +31,7 @@ public class PostItemAdapter extends RecyclerView.Adapter<PostItemAdapter.PostVi
     static LongClickListener longclickListener;
 
     // Constructor
-    PostItemAdapter(List<PostItem> postItemList)
+    public PostItemAdapter(List<PostItem> postItemList)
     {
         this.PostItemList = postItemList;
     }
@@ -52,7 +52,6 @@ public class PostItemAdapter extends RecyclerView.Adapter<PostItemAdapter.PostVi
         postViewHolder.PostItemTitle.setText(postItem.getPostItemTitle());
         postViewHolder.ExcerptItem.setText(postItem.getPostItemExcerpt());
         postViewHolder.mRecyclerImageView.setImageUrl(postItem.getThumbnailURL(),imageLoader);
-
     }
 
     @Override
@@ -66,7 +65,6 @@ public class PostItemAdapter extends RecyclerView.Adapter<PostItemAdapter.PostVi
 
         TextView PostItemTitle;
         TextView ExcerptItem;
-
         RecyclerImageView mRecyclerImageView;
 
         PostViewHolder(View itemView)
